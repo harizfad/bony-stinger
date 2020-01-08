@@ -6,6 +6,7 @@
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
   overflow-x: hidden;
+  background-color: grey;
 }
 p {
   font-size: 20px;
@@ -18,7 +19,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #18BC9C;
+  color:orange;
   outline: none;
 }
 h1,
@@ -51,26 +52,27 @@ hr.star-primary:after {
   padding: 0 0.25em;
 }
 hr.star-light {
-  border-color: white;
+  border-color: red;
 }
 hr.star-light:after {
-  background-color: #18BC9C;
-  color: white;
+  background-color: red;
+  color: red;
 }
 hr.star-primary {
   border-color: #2C3E50;
 }
 hr.star-primary:after {
-  background-color: white;
-  color: #2C3E50;
+  background-color: red;
+  color: maroon;
 }
 .img-centered {
   margin: 0 auto;
 }
 header {
   text-align: center;
-  background: #18BC9C;
-  color: white;
+  background: red
+    
+  color: red;
 }
 header .container {
   padding-top: 100px;
@@ -104,7 +106,7 @@ header .intro-text .skills {
   }
 }
 .navbar-custom {
-  background: #2C3E50;
+  background: black;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   text-transform: uppercase;
   font-weight: 700;
@@ -114,13 +116,13 @@ header .intro-text .skills {
   outline: none;
 }
 .navbar-custom .navbar-brand {
-  color: white;
+  color: red;
 }
 .navbar-custom .navbar-brand:hover,
 .navbar-custom .navbar-brand:focus,
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
-  color: white;
+  color: ;
 }
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
@@ -129,7 +131,7 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li a:hover {
-  color: #18BC9C;
+  color: yel;
   outline: none;
 }
 .navbar-custom .navbar-nav li a:focus,
@@ -137,24 +139,24 @@ header .intro-text .skills {
   color: white;
 }
 .navbar-custom .navbar-nav li.active a {
-  color: white;
-  background: #18BC9C;
+  color: grey;
+  background: red;
 }
 .navbar-custom .navbar-nav li.active a:hover,
 .navbar-custom .navbar-nav li.active a:focus,
 .navbar-custom .navbar-nav li.active a:active {
-  color: white;
-  background: #18BC9C;
+  color: grey;
+  background: grey;
 }
 .navbar-custom .navbar-toggle {
-  color: white;
+  color: grey;
   text-transform: uppercase;
   font-size: 10px;
   border-color: white;
 }
 .navbar-custom .navbar-toggle:hover,
 .navbar-custom .navbar-toggle:focus {
-  background-color: #18BC9C;
+  background-color: red;
   color: white;
   border-color: #18BC9C;
 }
@@ -309,7 +311,7 @@ footer .footer-col {
 }
 footer .footer-below {
   padding: 25px 0;
-  background-color: #233140;
+  background-color: black;
 }
 .btn-outline {
   color: white;
@@ -324,7 +326,7 @@ footer .footer-below {
 .btn-outline:active,
 .btn-outline.active {
   color: #18BC9C;
-  background: white;
+  background: red;
   border: solid 2px white;
 }
 .btn-primary {
